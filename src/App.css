@@ -40,3 +40,24 @@ body{
     padding: 5px 10px;
     margin-right: 10px;
 }
+
+.table{
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 800px;
+    padding: 0px 10px;
+    border: 1px solid #ddd;
+}
+.table p{
+    text-align: start;
+    padding: 10px;
+    display: flex;
+    width: 50%;
+}
+.table div{
+    display: grid;
+    gap: 10px;
+}
